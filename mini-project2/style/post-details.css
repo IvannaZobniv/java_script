@@ -1,0 +1,75 @@
+/* post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+/*Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки*/
+/*(дати фон. марджини і тд)*/
+body {
+
+    height: 100vh;
+    background-image: url(https://picsum.photos/g/3000/2000);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+.screenOne{
+    background-color: #0d0d0e;
+    box-sizing: border-box;
+    width: 550px;
+    height: auto;
+    margin:  auto;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.text {
+    position: relative;
+    text-align: left;
+    font-size: 1.25em;
+    font-family: monospace;
+    font-weight: bold;
+    width: 550px;
+}
+
+.line1 {
+    color: #dbe2ec;
+    animation: type .5s 1s steps(20, end) forwards;
+}
+
+.cursor1 {
+    animation: blink 1s 2s 2 forwards;
+}
+
+.line2 {
+    color: #d3d7c6;
+    animation: type .5s 4.25s steps(20, end) forwards;
+}
+
+.cursor2 {
+    animation: blink 1s 5.25s 2 forwards;
+}
+
+.line3 {
+    color: #d0dee3;
+    animation: type .5s 7.5s steps(20, end) forwards;
+}
+
+.cursor3 {
+    animation: blink 1s 8.5s 2 forwards;
+}
+
+.line4 {
+    color: #ecd0d0;
+    animation: type .5s 10.75s steps(20, end) forwards;
+}
+
+.cursor4 {
+    animation: blink 1s 8.5s infinite;
+}
+span {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
